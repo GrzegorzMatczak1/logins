@@ -573,7 +573,7 @@ int main()
 
 )";*/ //was used if ascii art displays correcly and it does eventough it does not display correcly in terminal is does in notepat and that counts!
 
-    App app; //remember to remove the comments from the oder code so it works too! I REMIND YOU TO CHECK IF YOU DELETED THE COMMENTS //IF YOU WANT TO USE THE CODE IN WINDOWS PRESS CTRL + F nah rand and time(0) just suck too much so only captcha works on window. I wish c++ would have had a random generator as in python
+    App app; //remember to remove the comments from the oder code so it works too! I REMIND YOU TO CHECK IF YOU DELETED THE COMMENTS //IF YOU WANT TO USE THE CODE IN WINDOWS PRESS CTRL + F// nah rand and time(0) just suck too much so only captcha works on window. I wish c++ would have had a random generator as in python
     app.setAuth();
     app.logIn();
     return 0;
