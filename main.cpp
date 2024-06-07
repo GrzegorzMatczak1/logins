@@ -39,10 +39,12 @@ public:
             cout << "Do you wish to change your password?" << endl;
             cout << "1. Yes" << endl;
             cout << "2. No" << endl;
+            cout << "Your input: ";
 
             int choice;
 
             cin >> choice;
+            cout << endl;
 
             switch(choice)
             {
@@ -50,10 +52,12 @@ public:
                 cout << "Do you wish to change your password?" << endl;
                 cout << "1. Yes" << endl;
                 cout << "2. No" << endl;
+                cout << "Your input: ";
 
                 int choice;
 
                 cin >> choice;
+                cout << endl;
 
                 switch(choice)
                 {
@@ -190,10 +194,12 @@ public:
         cout << "Type the number of the option of your choice of login:" << endl;
         cout << "1. Password" << endl;
         cout << "2. SMS code" << endl;
+        cout << "Your input: ";
 
         int choice;
 
         cin >> choice;
+        cout << endl;
 
         switch(choice)
         {
